@@ -1,0 +1,55 @@
+.container{
+    width: 1480px;
+    height: 720px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+ }
+ .item{
+     width: 600px;
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ }
+ #child-item{
+ 
+     height: 225px;
+     
+     
+     
+ }
+ 
+ .child2-tem{
+    width: 250px ;
+    height: 248px;
+    margin-right: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  background-color: antiquewhite;
+ }
+ .labels{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+     
+    
+}
+.child3-item{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+    width: 225px;
+    height: 248px;
+    
+    
+}
+.fields{
+margin-right: 40px;
+    
+}
