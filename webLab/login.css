@@ -1,0 +1,79 @@
+body{
+    background-color: #f0f0f0;
+}
+.container{
+
+    width: 1450px;
+    height: 720px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #3498db;
+    
+}
+.child{
+
+    width: 400px;
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.child2{
+
+    width:200px;
+    height: 250px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db; 
+    font-weight: bold;
+    
+   
+
+}
+.child3{
+
+    width:200px;
+    height: 250px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding-right: 3px;
+    padding-left: 3px;
+    
+
+}
+.child3 .login-button {
+    background-color: #3498db; /* A shade of blue */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+    margin-top: 10px;
+}
+  
+  /* Button hover effect */
+  .child3 .login-button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  #user{
+    margin-top: -65px;
+  }
+  #uid{
+margin-top: 5px;
+
+  }
+
+
+  

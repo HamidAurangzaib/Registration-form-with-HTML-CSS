@@ -1,0 +1,20 @@
+
+
+
+.parentFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+
+.fc {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+#first {
+    flex-grow: 2;
+}
